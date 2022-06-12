@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 12.875, 8.5" name="Employee">
+  <DataContextMoniker Name="/EmployeeDataContext" />
+  <nestedChildShapes>
+    <classShape Id="59f32f37-c4bb-4fe8-b0a5-cba1a3375356" absoluteBounds="4.25, 1.5, 2, 1.4248478190104168">
+      <DataClassMoniker Name="/EmployeeDataContext/Department" />
+      <nestedChildShapes>
+        <elementListCompartment Id="49812817-e7aa-4cd7-87ab-06dd8ad1771e" absoluteBounds="4.2650000000000006, 1.96, 1.9700000000000002, 0.86484781901041674" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d4548bcf-dcc7-4dbc-b63d-afb820cdf4d7" absoluteBounds="6.875, 5.25, 2, 1.75354248046875">
+      <DataClassMoniker Name="/EmployeeDataContext/EmployeeDepartmentHistory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="66633210-2031-40b3-b3e6-656f35138994" absoluteBounds="6.89, 5.71, 1.9700000000000002, 1.19354248046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.25 : 2.92484781901042); (5.25 : 6.12677124023438); (6.875 : 6.12677124023438)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/EmployeeDataContext/Department/Department_EmployeeDepartmentHistory" />
+      <nodes>
+        <classShapeMoniker Id="59f32f37-c4bb-4fe8-b0a5-cba1a3375356" />
+        <classShapeMoniker Id="d4548bcf-dcc7-4dbc-b63d-afb820cdf4d7" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="4b961d76-e3b6-4147-89b8-54341200b7c7" absoluteBounds="10.125, 2.625, 2, 2.24658447265625">
+      <DataClassMoniker Name="/EmployeeDataContext/SalesPerson" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fde32bf6-4671-4467-b21e-3648aff780d1" absoluteBounds="10.14, 3.085, 1.9700000000000002, 1.68658447265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="00bf56d3-860c-4122-8921-e78a5752cbc4" absoluteBounds="10.625, 6, 2, 1.75354248046875">
+      <DataClassMoniker Name="/EmployeeDataContext/lab12View" />
+      <nestedChildShapes>
+        <elementListCompartment Id="19fde44a-3049-4139-8d49-701dd5731994" absoluteBounds="10.64, 6.46, 1.9700000000000002, 1.19354248046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
